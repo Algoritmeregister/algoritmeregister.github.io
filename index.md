@@ -1,7 +1,5 @@
 ---
 ---
-# Algoritmeregister.nl
-
 ## Voor de burger
 
 In het algoritmeregister kun je zien welke algoritmes er bij de overheid worden gebruikt en wat daarbij de risico's zijn.
