@@ -1,7 +1,7 @@
 ---
 layout: valprop
 
-valprop: algoritme&ZeroWidthSpace;register.nl
+valprop: algoritme&ZeroWidthSpace;register
 job: grip op algoritmes in uw organisatie
 
 pains_title: Meer grip op algoritmes is lastig
