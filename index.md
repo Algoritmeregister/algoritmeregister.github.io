@@ -4,12 +4,12 @@ layout: valprop
 valprop: algoritme&ZeroWidthSpace;register
 job: grip op algoritmes in uw organisatie
 
-pains_title: Meer grip op algoritmes is lastig
-pains_description: Meer grip op automatische besluitvorming begint met zicht op de algoritmes die worden ingezet. Maar wat zijn algoritmes precies? En waar begin je? Met algoritmeregister brengt u de belangrijkste zaken bij elkaar.
+pains_title: Krijg grip op algoritmes
+pains_description: Op steeds meer plaatsen worden algoritmes en AI ingezet als onderdeel van besluitvorming en uitvoer. De toenemende vraag naar verantwoording en controle maakt het noodzakelijk om dit beter in kaart te brengen en op basis daarvan de dialoog aan te gaan.
 
 pands_title: Samen maken we een snelle start
-pands_description: Tijdens een kick-start van 3 weken brengen we samen de eerste selectie in kaart. De resultaten publiceren we overzichtelijk en goed doorzoekbaar op uw eigen algoritmeregister.nl subdomein.
+pands_description: Je staat er niet alleen voor. Een consortium van 14 overheden werkt samen aan het realiseren van een algoritmeregister. Samen brengen we de eerste selectie in kaart en bepalen de standaard voor vastlegging.
 
 gains_title: Altijd volgens de laatste standaard
-gains_description: We volgen de zich snel ontwikkelende standaarden op de voet, met onze API als basis voor innovatieve toepassingen. Zo is uw informatie herbruikbaar en uitwisselbaar, nu en in de toekomst.
+gains_description: We volgen de zich snel ontwikkelende standaarden op de voet, met onze API als basis voor innovatieve toepassingen. Uw informatie wordt automatisch omgezet naar volgende versies. Zo is uw informatie herbruikbaar en uitwisselbaar, nu en in de toekomst.
 ---
