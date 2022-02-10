@@ -1,5 +1,5 @@
 ---
-layout: algoreg
+layout: main
 
 valprop: algoritme&ZeroWidthSpace;register
 job: grip op algoritmes in uw organisatie
