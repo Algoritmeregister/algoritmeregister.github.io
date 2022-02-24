@@ -1,0 +1,23 @@
+.w-main-logo {
+	max-width: 240px; 
+}
+
+.btn {
+	border: 0;
+	border-radius: 4px;
+	padding: 2 * $spacing 4 * $spacing;
+	cursor: pointer;
+	background: $blue;
+	color: #fff;
+	@extend .text-button;
+}
+
+.md-zone {
+	h1 {
+		@extend .text-h1;
+	}
+
+	p {
+		@extend .text-body;
+	}
+}
