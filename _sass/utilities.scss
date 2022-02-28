@@ -4,6 +4,7 @@
 
 $black: #363636;
 $grey: #7E7E7E;
+$light-grey: #F5F5F5;
 $blue: #4D80E2;
 $light-blue: #F4FAFF;
 
@@ -12,7 +13,11 @@ $light-blue: #F4FAFF;
 }
 
 .bg-light-blue {
-	background: $light-blue;
+	background-color: $light-blue;
+}
+
+.bg-light-grey {
+	background-color: $light-grey;
 }
 
 
@@ -22,6 +27,7 @@ $light-blue: #F4FAFF;
 
 $font-size-l: 28px;
 $font-size-m: 16px;
+$font-size-sm: 12px;
 $font-family: 'Noto Sans', sans-serif;
 
 .text-h1 {
@@ -34,6 +40,20 @@ $font-family: 'Noto Sans', sans-serif;
 	font-size: $font-size-m;
 	font-family: $font-family;
 	font-weight: 400;
+}
+
+.text-h3 {
+	font-size: $font-size-m;
+	font-family: $font-family;
+	font-weight: 400;
+}
+
+.text-h4 {
+	font-size: $font-size-sm;
+	font-family: $font-family;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: $grey;
 }
 
 .text-body {
@@ -80,6 +100,26 @@ $font-family: 'Noto Sans', sans-serif;
 /////////////
 
 $spacing: 8px;
+$spacing-2: 12px;
+$spacing-3: 16px;
+$spacing-4: 24px;
+$spacing-5: 32px;
+$spacing-6: 64px;
+
+.p1 { padding: $spacing }
+.p2 { padding: $spacing-2 }
+.p3 { padding: $spacing-3 }
+.p4 { padding: $spacing-4 }
+
+
+.px3 { padding-left: $spacing-3; padding-right: $spacing-3 }
+.py3 { padding-top: $spacing-3; padding-bottom: $spacing-3 }
+.px4 { padding-left: $spacing-4; padding-right: $spacing-4 }
+.py4 { padding-top: $spacing-4; padding-bottom: $spacing-4 }
+.px5 { padding-left: $spacing-5; padding-right: $spacing-5 }
+.py5 { padding-top: $spacing-5; padding-bottom: $spacing-5 }
+
+.mr-4 { margin-right: $spacing-4 }
 
 ///////////////////
 // Media queries //
@@ -88,6 +128,25 @@ $spacing: 8px;
 $size-sm: 600px;
 $size-md: 992px;
 $size-lg: 1280px;
+
+@mixin sm {
+  @media screen and (min-width: #{$size-sm}) {
+    @content;
+  }
+}
+
+@mixin md {
+  @media screen and (min-width: #{$size-md}) {
+    @content;
+  }
+}
+
+@mixin lg {
+  @media screen and (min-width: #{$size-lg}) {
+    @content;
+  }
+}
+
 
 ///////////////////
 // Wrapper sizes //
@@ -117,8 +176,30 @@ $wrapper-max-width: 1440px;
 	flex-wrap: wrap;
 }
 
+.flex-1 {
+	flex: 1;
+}
+
+.dir-col {
+	flex-direction: column;
+}
+
+.dir-row {
+	flex-direction: row;
+}
+
+.md\:dir-row {
+	@include md {
+		flex-direction: row;
+	}
+}
+
 .space-between {
 	justify-content: space-between;
+}
+
+.justify-center {
+	justify-content: center;
 }
 
 .ml-auto {
@@ -129,10 +210,23 @@ $wrapper-max-width: 1440px;
 	margin-right: auto;
 }
 
-@mixin sm {
-  @media screen and (min-width: #{$size-sm}) {
-    @content;
-  }
+.mx-auto {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.w-max-wrapper {
+	max-width: 90%;
+	@include sm {
+		max-width: $wrapper-sm;
+	}
+	@include md {
+		max-width: $wrapper-md;
+	}
+	@include lg{
+		max-width: $wrapper-lg;
+	}
 }
 
 .sm\:w-max-wrapper {

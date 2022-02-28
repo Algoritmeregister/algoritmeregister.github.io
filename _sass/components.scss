@@ -5,7 +5,7 @@
 .btn {
 	border: 0;
 	border-radius: 4px;
-	padding: 2 * $spacing 4 * $spacing;
+	padding: $spacing-2 $spacing-4;
 	cursor: pointer;
 	background: $blue;
 	color: #fff;
@@ -15,9 +15,19 @@
 .md-zone {
 	h1 {
 		@extend .text-h1;
+		margin-bottom: 2 * $spacing;
 	}
 
+	h2 { 
+		@extend .text-h2;
+	}
+
+	h3 { 
+		@extend .text-h3;
+	}
+	
 	p {
 		@extend .text-body;
+		margin-bottom: 4 * $spacing;
 	}
 }
