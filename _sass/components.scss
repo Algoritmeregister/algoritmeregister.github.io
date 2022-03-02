@@ -20,14 +20,32 @@
 
 	h2 { 
 		@extend .text-h2;
+		@extend .mb3;
 	}
 
 	h3 { 
 		@extend .text-h3;
+		@extend .mb3;
 	}
 	
-	p {
+	p, li {
 		@extend .text-body;
-		margin-bottom: 4 * $spacing;
+	}
+
+	li {
+		@extend .mb2;
+		display: list-item;
+	}
+
+	ul {
+		padding-left: 16px;
+	}
+
+	ul li {
+		list-style: square;
+	}
+
+	p {
+		@extend .mb4;
 	}
 }

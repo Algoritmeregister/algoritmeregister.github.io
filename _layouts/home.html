@@ -5,16 +5,17 @@
   <title>Algoritmeregister</title>
 </head>
 <body>
+  {% include layout-overlay.html %}
 
   {% include header.html %}
 
   <div class="bg-light-blue">
     <div class="flex mx-auto w-max-wrapper dir-col md:dir-row">
-      <div class="flex-1">
+      <div class="flex-1 px2">
         <img src="/img/temp-illustration-undraw.png" srcset="/img/temp-illustration-undraw@2x.png 2x">
       </div>
-      <div class="flex-1">
-        <div class="md-zone">
+      <div class="flex-2 px2 py5">
+        <div class="md-zone md:w-75">
           <h1>Grip op de algoritmes in je organisatie</h1>
           <p>Algoritmeregister is een handige beheertool voor inzet van algoritmische toepassingen door publieke organisaties.</p>
         </div>
@@ -23,56 +24,51 @@
     </div>
   </div>
 
-  <div>
-    <h4 class="text-h4 text-center">Betrokken organisaties</h4>
+  <div class="mb6">
+    <h4 class="text-h4 text-center my5">— Betrokken organisaties —</h4>
     <div class="mx-auto w-max-wrapper flex justify-center">
       <img src="/img/temp-organisations-strip.png" srcset="/img/temp-organisations-strip@2x.png 2x" class="display-block">
     </div>
   </div>
 
-  <div>
-    <h2 class="text-h2">Praktische beheertool</h2>
+  <div class="md:w-75 mx-auto">
+    <h2 class="text-h2 text-center mb4">Praktische beheertool</h2>
     <p class="text-intro c-grey text-center">Algoritmeregister ondersteunt de algoritmeverantwoordelijke bij het snel en overzichtelijk inventariseren, registreren en actualiseren van informatie over de inzet van algoritmische toepassingen binnen de organisatie, op basis van de door het consortium ontwikkelde open standaard voor registratie van algoritmische toepassingen in overheidsorganisaties.</p>
   </div>
 
-  <div class="flex mx-auto w-max-wrapper">
-    <div>
-      <div>
-        <h3 class="text-h3">Alles op één plek</h3>
+  <div class="flex mx-auto w-max-wrapper dir-col md:dir-row py5">
+    <div class="flex-1 px2 py3">
+      <div class="mb4">
+        <h3 class="text-h3 mb1">Alles op één plek</h3>
         <p class="text-body">Als algoritmeverantwoordelijke heb je alle lopende en benodigde inventarisaties netjes bij elkaar, met contactgegevens, openstaande taken, en meer.</p>
       </div>
-      <div>
-        <h3 class="text-h3">Niets vergeten</h3>
-        <p class="text-body">Ontvang notificaties als registraties moeten worden geupdate.</p>
-      </div>
-      <div>
-        <h3 class="text-h3">Eenvoudig delen</h3>
+      <div class="mb4">
+        <h3 class="text-h3 mb1">Eenvoudig delen</h3>
         <p class="text-body">Deel inventarisaties eenvoudig met de betrokken personen, zodat die hun eigen velden ter controle kunnen doorlezen en aanvullen voor publicatie.</p>
       </div>
-      <div>
-        <h3 class="text-h3">Flexibiliteit en transparantie</h3>
+      <div class="mb4">
+        <h3 class="text-h3 mb1">Hulp bij invullen</h3>
+        <p class="text-body">Alle tools, technieken en uitleg die nodig zijn om de verschillende facetten van de registratie goed te kunnen ophalen.</p>
+      </div>
+      <div class="mb4">
+        <h3 class="text-h3 mb1">Flexibiliteit en transparantie</h3>
         <p class="text-body">Definieer op organisatieniveau de velden die je wil gebruiken naast de standaardvelden en stel in wat je wil delen met de buitenwereld bij publicatie.</p>
       </div>
-      <div>
-        <h3 class="text-h3">Publiceren</h3>
+      <div class="mb4">
+        <h3 class="text-h3 mb1">Publiceren</h3>
         <p class="text-body">Publiceer registraties met één druk op de knop als open informatie op je eigen online overzicht en naar de nationale algoritme catalogus.</p>
-      </div>         
+      </div>
+      <div class="mb4">
+        <h3 class="text-h3 mb1">Niets vergeten</h3>
+        <p class="text-body">Ontvang notificaties als registraties moeten worden geupdate.</p>
+      </div>       
     </div>
-    <div>
+    <div class="flex-1 px2">
       <img src="/img/algoritmeregister-mockup-application.png" srcset="/img/algoritmeregister-mockup-application@2x.png 2x">
     </div>
   </div>
 
-<div class="bg-light-grey">
-  <div class="flex mx-auto w-max-wrapper">
-    <div class="md-zone">
-      <h2>Open samewerking</h2>
-      <p>Momenteel verzamelen we de Pilotgroep die samen de eerste versie van het algoritmeregister zal gaan inzetten in de eigen organisatie en van daaruit doorontwikkelen. In deze gezamenlijke Pilot halen we concrete feedback op in de praktijk. Die verwerken we direct in de volgende versie van de software. Dit alles gebeurt op basis van de principes van common ground, in samenwerking met Code for NL en de Foundation for Public Code.</p>
-    </div>
-  </div>
-</div>
-
-  <div class=""
+  {% include open-collab.html %}
 
   {% include footer.html %}
 </body>

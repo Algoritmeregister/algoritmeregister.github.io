@@ -5,67 +5,42 @@
   <title>Algoritmeregister - Contact</title>
 </head>
 <body>
+  {% include layout-overlay.html %}
 
   {% include header.html %}
 
   <div class="bg-light-blue">
     <div class="flex mx-auto w-max-wrapper">
-      <div>
-        <img src="/img/temp-illustration-undraw.png" srcset="/img/temp-illustration-undraw@2x.png 2x">
-      </div>
-      <div>
+      <div class="flex-1 px2 py4">
         <div class="md-zone">
           <h1>Contact</h1>
-          <p>Algoritmeregister is een handige beheertool voor inzet van algoritmische toepassingen door publieke organisaties.</p>
         </div>
-        <a href="#" class="btn display-inline-block">Aanmelden voor de pilot</a>
       </div>
     </div>
   </div>
 
-  <div>
-    <div>
-      <h4>Betrokken organisaties</h4>
-      <img src="/img/temp-organisations-strip.png" srcset="/img/temp-organisations-strip@2x.png 2x">
+<div class="flex mx-auto w-max-wrapper dir-col md:dir-row my5">
+  <div class="flex-1 px2">
+    <div class="md-zone mb4">
+      <h1>Voordelen deelname pilot</h1>
+      <ul class="mb4">
+        <li>U kunt als eerste gebruik maken van de ontwikkelde software</li>
+        <li>Uw wensen kunnen maximaal worden meegenomen bij de ontwikkeling van de standaard en de software</li>
+        <li>U wordt actief ondersteund bij inventarisatie en publicatie</li>
+        <li>U draait actief mee in de community of practice, de kopgroep van overheden die zich hard maken voor verantwoorde inzet van algoritmes in hun organisatie</li>
+      </ul>
+      <h2>Aanmelden</h2>
+      <p>Voor de Pilot zijn nog een aantal plekken beschikbaar om in te stappen als organisatie.</p>
+      <a href="mailto:info@algoritmeregister.org" class="btn display-inline-block">info@algoritmeregister.org</a>
     </div>
   </div>
+  <div class="flex-1 px2">
+        <img src="/img/temp-illustration-undraw-contact.png" srcset="/img/temp-illustration-undraw-contact@2x.png 2x">
 
-  <div>
-    <h2 class="text-h2">Praktische beheertool</h2>
-    <p class="text-intro c-grey text-center">Algoritmeregister ondersteunt de algoritmeverantwoordelijke bij het snel en overzichtelijk inventariseren, registreren en actualiseren van informatie over de inzet van algoritmische toepassingen binnen de organisatie, op basis van de door het consortium ontwikkelde open standaard voor registratie van algoritmische toepassingen in overheidsorganisaties.</p>
-  </div>
+  </div> 
+</div>
 
-  <div class="flex ml-auto mr-auto sm:w-max-wrapper">
-    <div>
-      <div>
-        <h3 class="text-h3">Alles op één plek</h3>
-        <p class="text-body">Als algoritmeverantwoordelijke heb je alle lopende en benodigde inventarisaties netjes bij elkaar, met contactgegevens, openstaande taken, en meer.</p>
-      </div>
-      <div>
-        <h3 class="text-h3">Niets vergeten</h3>
-        <p class="text-body">Ontvang notificaties als registraties moeten worden geupdate.</p>
-      </div>
-      <div>
-        <h3 class="text-h3">Eenvoudig delen</h3>
-        <p class="text-body">Deel inventarisaties eenvoudig met de betrokken personen, zodat die hun eigen velden ter controle kunnen doorlezen en aanvullen voor publicatie.</p>
-      </div>
-      <div>
-        <h3 class="text-h3">Flexibiliteit en transparantie</h3>
-        <p class="text-body">Definieer op organisatieniveau de velden die je wil gebruiken naast de standaardvelden en stel in wat je wil delen met de buitenwereld bij publicatie.</p>
-      </div>
-      <div>
-        <h3 class="text-h3">Publiceren</h3>
-        <p class="text-body">Publiceer registraties met één druk op de knop als open informatie op je eigen online overzicht en naar de nationale algoritme catalogus.</p>
-      </div>         
-    </div>
-    <div>
-      <img src="/img/algoritmeregister-mockup-application.png" srcset="/img/algoritmeregister-mockup-application@2x.png 2x">
-    </div>
-  </div>
-
-  <div class="flex ml-auto mr-auto sm:w-max-wrapper">
-    <p class="text-body">Momenteel verzamelen we de Pilotgroep die samen de eerste versie van het algoritmeregister zal gaan inzetten in de eigen organisatie en van daaruit doorontwikkelen. In deze gezamenlijke Pilot halen we concrete feedback op in de praktijk. Die verwerken we direct in de volgende versie van de software. Dit alles gebeurt op basis van de principes van common ground, in samenwerking met Code for NL en de Foundation for Public Code.</p>
-  </div>
+  {% include open-collab.html %}
   {% include footer.html %}  
 </body>
 </html>
