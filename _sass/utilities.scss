@@ -355,6 +355,23 @@ $wrapper-max-width: 1440px;
 	}
 }
 
+.position-relative {
+	position: relative;
+}
+
+.position-absolute {
+	position: absolute;
+}
+
+.pos-check {
+	left: -4px;
+	top: 4px;
+}
+
+.w-check {
+	width: 16px;
+}
+
 ///////////
 // Debug //
 ///////////
