@@ -100,12 +100,18 @@ $font-family: 'Noto Sans', sans-serif;
 	font-size: $font-size-m;
 	font-family: $font-family;
 	text-decoration: none;
+
+    color: inherit;
+    text-decoration: none;
 }
 
 .text-button {
 	font-size: $font-size-m;
 	font-family: $font-family;
 	text-transform: uppercase;
+
+    color: inherit;
+    text-decoration: none;
 }
 
 .text-center {

@@ -2,7 +2,7 @@
 <html lang="nl">
 <head>
   {% include meta.html %}
-  <title>Algoritmeregister</title>
+  <title>{{ site.title }} - {{ page.title }}</title>
 </head>
 <body>
   {% include layout-overlay.html %}
@@ -16,24 +16,17 @@
       </div>
       <div class="flex-2 px2 py5">
         <div class="md-zone md:w-75">
-          <h1>Grip op de algoritmes in je organisatie</h1>
-          <p>Algoritmeregister is een handige beheertool voor inzet van algoritmische toepassingen door publieke organisaties.</p>
+          <h1>{{ page.title }}</h1>
+          <p>{{ page.description }}</p>
         </div>
-        <a href="/contact" class="btn display-inline-block">Aanmelden voor de pilot</a>
+        <a href="/pilot" class="btn display-inline-block">Aanmelden voor de pilot</a>
       </div>
     </div>
   </div>
 
-  <div class="mb6">
-    <h4 class="text-h4 text-center my5">— Betrokken organisaties —</h4>
-    <div class="mx-auto w-max-wrapper flex justify-center">
-      <img src="/img/temp-organisations-strip.png" srcset="/img/temp-organisations-strip@2x.png 2x" class="display-block">
-    </div>
-  </div>
-
   <div class="md:w-75 mx-auto">
-    <h2 class="text-h2 text-center mb4">Praktische beheertool</h2>
-    <p class="text-intro c-grey text-center">Algoritmeregister ondersteunt de algoritmeverantwoordelijke bij het snel en overzichtelijk inventariseren, registreren en actualiseren van informatie over de inzet van algoritmische toepassingen binnen de organisatie, op basis van de door het consortium ontwikkelde open standaard voor registratie van algoritmische toepassingen in overheidsorganisaties.</p>
+    <h2 class="text-h2 text-center my5">Praktische beheertool</h2>
+    <p class="text-intro c-grey text-center">Een algoritmeregister ondersteunt de algoritmeverantwoordelijke bij het snel en overzichtelijk inventariseren, registreren en actualiseren van informatie over de inzet van algoritmische toepassingen binnen de organisatie, op basis van de <a href="/documenten">Algoritmeregister Standaard</a> voor registratie van algoritmische toepassingen in overheidsorganisaties.</p>
   </div>
 
   <div class="flex mx-auto w-max-wrapper dir-col pt5 pb1 align-center">
@@ -73,7 +66,7 @@
       </div>
     </div>
   </div>
-  <div class="flex mx-auto w-max-wrapper dir-row pt2 flex-wrap mb6">
+  <div class="flex mx-auto w-max-wrapper dir-row pt2 flex-wrap mb5">
     <div class="flex-1 px2 py3 md:w-50">
       <div class="mb4 position-relative px4">
         <img src="img/check.svg" class="display-inline-block position-absolute pos-check w-check">
@@ -87,6 +80,17 @@
         <h3 class="text-h3 mb1">Niets vergeten</h3>
         <p class="text-body">Ontvang notificaties als registraties moeten worden geupdate.</p>
       </div>       
+    </div>
+  </div>
+
+  <div class="mb6">
+    <div class="text-center mb4"><a href="/pilot" class="btn display-inline-block">Aanmelden voor de pilot</a></div>
+  </div>
+
+  <div class="mb6">
+    <h4 class="text-h4 text-center mb4">— Betrokken organisaties —</h4>
+    <div class="mx-auto w-max-wrapper flex justify-center">
+      <img src="/img/temp-organisations-strip.png" srcset="/img/temp-organisations-strip@2x.png 2x" class="display-block">
     </div>
   </div>
 

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  {% include meta.html %}
+  <title>{{ site.title }} - {{ page.title }}</title>
+</head>
+<body>
+  {% include layout-overlay.html %}
+
+  {% include header.html %}
+
+  <div class="bg-light-blue">
+    <div class="flex mx-auto w-max-wrapper">
+      <div class="flex-1 px2 py4">
+        <div class="md-zone">
+          <h1>{{ page.title }}</h1>
+          <p>{{ page.description }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="flex mx-auto w-max-wrapper dir-col md:dir-row my5">
+    <div class="flex-1 px2">
+      <div class="md-zone mb4">
+        {{ content }}
+      </div>
+    </div>
+    <div class="flex-1 px2">
+      <img src="/img/temp-illustration-undraw-contact.png" srcset="/img/temp-illustration-undraw-contact@2x.png 2x">
+    </div> 
+  </div>
+
+  {% include open-collab.html %}
+
+  {% include footer.html %}  
+</body>
+</html>
