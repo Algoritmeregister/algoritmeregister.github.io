@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Documenten
-description: Relevante documenten die onder andere vanuit het programma "publieke controle op algoritmes" zijn opgeleverd.
+title: Documenten en verwijzingen
+description: Relevante documenten en links, onder andere vanuit het voorgaande programma "publieke controle op algoritmes".
 ---
 {% for doc in site.data.documenten %}
 ## {{ doc.title }}
