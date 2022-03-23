@@ -12,6 +12,17 @@
 	@extend .text-button;
 }
 
+.label {
+	display: inline-block;
+	background: $grey;
+	color: #fff;
+	padding: 0 4px;
+	border-radius: 4px;
+	@extend .text-button;
+	margin-bottom: 14px;
+	font-size: 0.85em;
+}
+
 .md-zone {
 	h1 {
 		@extend .text-h1;
