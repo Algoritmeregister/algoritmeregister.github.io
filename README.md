@@ -1,2 +1,3 @@
 ## Algoritmeregister.org
-Algemene website met informatie over de ontwikkeling van Algoritmeregister.
+
+Projectwebsite voor de gezamenlijke ontwikkeling aan standaarden en instrumenten voor algoritmische transparantie.
