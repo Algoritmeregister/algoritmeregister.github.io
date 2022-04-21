@@ -1,11 +1,11 @@
-- wanneer: maandag 28 maart, 15:45 uur
-  type: Kopgroepbijeenkomst
-  titel: (Door)startbijeenkomst
-  omschrijving: "Presentatie plannen BZK, presentatie algoritmeregister.org, rondje langs de velden: wie is waar mee bezig?"
-- wanneer: donderdag 28 april, 15:30 uur
-  type: Open Meetup
-  titel: Algoritmische transparantie
-  omschrijving: Wat is algoritmische transparantie en waarom is het belangrijk? In deze meetup bespreken we dit aan de hand van voorbeelden uit de praktijk.
+#- wanneer: maandag 28 maart, 15:45 uur
+#  type: Kopgroepbijeenkomst
+#  titel: (Door)startbijeenkomst
+#  omschrijving: "Presentatie plannen BZK, presentatie algoritmeregister.org, rondje langs de velden: wie is waar mee bezig?"
+#- wanneer: donderdag 28 april, 15:30 uur
+#  type: Open Meetup
+#  titel: Algoritmische transparantie
+#  omschrijving: Wat is algoritmische transparantie en waarom is het belangrijk? In deze meetup bespreken we dit aan de hand van voorbeelden uit de praktijk.
 - wanneer: maandag 25 april, 15:45 uur
   type: Kopgroepbijeenkomst
   titel: Beginnen met een algoritmeregister
