@@ -1,32 +1,6 @@
-<!DOCTYPE html>
-<html lang="nl">
-<head>
-  {% include meta.html %}
-  <title>{{ site.title }} - {{ page.title }}</title>
-</head>
-<body>
-  {% include layout-overlay.html %}
-
-  {% include header.html %}
-
-  <div class="bg-light-blue">
-    <div class="flex mx-auto w-max-wrapper dir-col md:dir-row">
-      <div class="flex-1 px2">
-        <img src="/img/temp-illustration-undraw.png" srcset="/img/temp-illustration-undraw@2x.png 2x">
-      </div>
-      <div class="flex-2 px2 py5">
-        <div class="md-zone md:w-75">
-          <h1>{{ page.title }}</h1>
-          <p>{{ page.description }}</p>
-        </div>
-        <a href="/kopgroep" class="btn display-inline-block">Doe mee met de Kopgroep</a>
-      </div>
-    </div>
-  </div>
-
-  <div class="md:w-75 mx-auto">
-    <h2 class="text-h2 text-center my5">Praktische beheertool</h2>
-    <p class="text-intro c-grey text-center">Een algoritmeregister ondersteunt de algoritmeverantwoordelijke bij het snel en overzichtelijk inventariseren, registreren en actualiseren van informatie over de inzet van algoritmische toepassingen binnen de organisatie, op basis van de <a href="/documenten">Algoritmeregister Standaard</a> voor registratie van algoritmische toepassingen in overheidsorganisaties.</p>
+<div class="md:w-75 mx-auto">
+    <h1 class="text-h1 text-center my5">Grip op de algoritmes in je organisatie</h1>
+    <p class="text-intro c-grey text-center">De Algoritmeregister beheertool ondersteunt de algoritmeverantwoordelijke bij het snel en overzichtelijk inventariseren, registreren en actualiseren van informatie over de inzet van algoritmische toepassingen binnen de organisatie, op basis van de <a href="/documenten">Algoritmeregister Standaard</a> voor registratie van algoritmische toepassingen in overheidsorganisaties.</p>
   </div>
 
   <div class="flex mx-auto w-max-wrapper dir-col pt5 pb1 align-center">
@@ -82,20 +56,3 @@
       </div>       
     </div>
   </div>
-
-  <div class="mb6">
-    <div class="text-center mb4"><a href="/kopgroep" class="btn display-inline-block">Doe mee met de Kopgroep</a></div>
-  </div>
-
-  <div class="mb6">
-    <h4 class="text-h4 text-center mb4">— Betrokken organisaties —</h4>
-    <div class="mx-auto w-max-wrapper flex justify-center">
-      <img src="/img/temp-organisations-strip.png" srcset="/img/temp-organisations-strip@2x.png 2x" class="display-block">
-    </div>
-  </div>
-
-  {% include open-collab.html %}
-
-  {% include footer.html %}
-</body>
-</html>
