@@ -1,31 +1,30 @@
 ---
 layout: default
 title: "Publieke controle op algoritmes"
-description: Overheden zijn zich meer en meer bewust van de impact van algoritmes op publieke waarden. In het programma 'Publieke controle op algoritmes' ontwikkelden de G4, de 12 Provincies, de Politie en Rijkswaterstaat gezamenlijk beleidsinstrumenten voor algoritmes en een algoritmeregister prototype. In dit vervolgprogramma richen we ons op het in de praktijk brengen hiervan.
+description: Samen werken aan verantwoorde en transparante inzet van algoritmische toepassingen door overheden.
 splash:
     image: true
     link:
-        url: /kopgroep
-        text: Doe mee met de kopgroep
+        url: /bijeenkomsten
+        text: Kom naar de bijeenkomsten
 cta-button:
-    url: /kopgroep
-    text: Doe mee met de kopgroep
+    url: /bijeenkomsten
+    text: Kom naar de bijeenkomsten
 ---
-## We bouwen een nationale catalogus
-### Alle algoritmes bij overheden bij elkaar op algoritmeregister.nl
+## Over het programma
 
-We maken een overzicht van alle bekende registers, zowel die in gebruik als die nog in ontwikkeling. Door deze periodiek te indexeren maken we de algoritmeregistraties centraal doorzoekbaar in de nationale catalogus op <a href="https://www.algoritmeregister.nl">algoritmeregister.nl</a>.
+Overheden zijn zich meer en meer bewust van de impact van algoritmes op publieke waarden. In het innovatie-programma 'Publieke controle op algoritmes' ontwikkelden de G4, de 12 Provincies, de Politie en Rijkswaterstaat gezamenlijk een beleidsinstrumenten voor verantwoorde en transparante inzet van algoritmes en een metadata standaard voor het registreren van inzet van algoritmes in een algoritmeregister.
 
-## We verbeteren de metadata standaard
-### Kopgroep van organisaties met een algoritmeregister
+In dit vervolgprogramma richten we ons op het samen in de praktijk brengen en doorontwikkelen hiervan:
 
-Voor organisaties die al bezig zijn met het bijhouden van een algoritmeregister organiseren we de <a href="/kopgroep">kopgroep</a>. Hiermee bespreken we tweewekelijks de ontwikkelingen en stand van zaken. Samen organiseren we maandelijkse open <a href="/bijeenkomsten">bijeenkomsten</a> voor organisaties die willen starten. Zo groeien we richting een breed gebruikte standaard.
+### We brengen algoritmeregisters in de praktijk
 
-## We ontwikkelen een beheertool
-### Common ground tool voor inventarisatie en publicatie
-Publicatie van een algoritmeregister kan zo laagdrempelig zijn als het publiceren van een databestand op data.overheid.nl. Om echter inventarisatie, beheer en publicatie eenvoudig te maken ontwikkelen we een open source <a href="/beheertool">Algoritmeregister beheertool</a> op maat.
+Als organisaties die al bezig zijn met een algoritmeregister vormen we de <a href="/kopgroep">kopgroep</a>. Tweewekelijks bespreken we onze plannen en ontwikkelingen met elkaar, mogelijke verbeteringen van de [standaard](https://standaard.algoritmeregister.org), en ideeën voor onderzoek en instrumenten, zoals een [beheertool](/beheertool).
 
-## We delen alle kennis
-### Centraal publiceren van handreikingen en instrumenten
+### We delen onze kennis en ervaringen
 
-Alle <a href="/documenten">documenten</a> die we ontwikkelen publiceren we centraal en bespreken wij tijdens de open <a href="/bijeenkomsten">bijeenkomsten</a>. Denk hierbij aan handreikingen voor governance, bezwaarprocedures, inkoopvoorwaarden en impact assessments.
+Ondersteunende <a href="/documenten">documenten</a> zoals handreikingen voor governance, bezwaarprocedures, inkoopvoorwaarden en impact assessments delen we centraal. Daarover organiseren we maandelijkse <a href="/bijeenkomsten">bijeenkomsten</a> voor organisaties die ook willen beginnen. Zo groeit de kopgroep en werken we aan een breed gedragen standaard. 
+
+### We werken aan een nationale catalogus
+
+We houden een overzicht bij van alle bekende registers (ook die in ontwikkeling) op [algoritmeregister.nl](https://www.algoritmeregister.nl). Momenteel werken we aan het automatisch indexeren daarvan, zodat algoritmeregistraties centraal doorzoekbaar zijn in een nationale catalogus.

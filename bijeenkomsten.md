@@ -18,6 +18,12 @@ orgs: true
 
 <h2 class="my5">Aanmelden</h2>
 
+Meld je aan voor de bijeenkomsten. Stuur een e-mail naar:
+
+<a href="mailto:info@algoritmeregister.org" class="btn display-inline-block mb4">info@algoritmeregister.org</a>
+
+<!-- 
 Aanmelden kan via de Code for NL meetup pagina.
 
 <a href="https://www.meetup.com/Code-For-NL/" class="btn display-inline-block mb4">www.meetup.com/Code-For-NL/</a>
+-->
