@@ -6,11 +6,11 @@
 #  type: Open Meetup
 #  titel: Algoritmische transparantie
 #  omschrijving: Wat is algoritmische transparantie en waarom is het belangrijk? In deze meetup bespreken we dit aan de hand van voorbeelden uit de praktijk.
-- wanneer: maandag 25 april, 15:45 uur
-  type: Kopgroepbijeenkomst
-  titel: Beginnen met een algoritmeregister
-  omschrijving: Hoe begin je met het bijhouden van een algoritmeregister en wat is daarvoor nodig (en beschikbaar)?
+#- wanneer: maandag 25 april, 15:45 uur
+#  type: Kopgroepbijeenkomst
+#  titel: Beginnen met een algoritmeregister
+#  omschrijving: Hoe begin je met het bijhouden van een algoritmeregister en wat is daarvoor nodig (en beschikbaar)?
 - wanneer: maandag 23 mei, 15:45 uur
-  type: Kopgroepbijeenkomst
-  titel: Implementeren van de inkoopvoorwaarden
-  omschrijving: Hoe implementeer je de <a href="/documenten">inkoopvoorwaarden</a> als aanvulling op algemene voorwaarden of GIBIT. 
+  type: open bijeenkomst
+  titel: AI-bias detecteren
+  omschrijving: Wat is AI-bias en hoe detecteer je dit. Gemeente Amsterdam ontwikkelde een tool om dit te doen.

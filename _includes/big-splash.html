@@ -1,0 +1,25 @@
+{% if page.splash %}
+<div class="bg-light-blue">
+  <div class="flex mx-auto w-max-wrapper dir-col md:dir-row">
+    {% if page.splash.image %}
+    <div class="flex-1 px2">
+      <img
+        src="/img/temp-illustration-undraw.png"
+        srcset="/img/temp-illustration-undraw@2x.png 2x"
+      />
+    </div>
+    {% endif %}
+    <div class="flex-2 px2 py5">
+      <div class="md-zone md:w-75">
+        <h1>{{ page.title }}</h1>
+        <p>{{ page.description }}</p>
+      </div>
+      {% if page.splash.link %}
+      <a href="{{ page.splash.link.url }}" class="btn display-inline-block"
+        >{{ page.splash.link.text }}</a
+      >
+      {% endif %}
+    </div>
+  </div>
+</div>
+{% endif %}
