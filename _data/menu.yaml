@@ -1,0 +1,12 @@
+- url: /
+  title: home
+- url: /bijeenkomsten
+  title: bijeenkomsten
+- url: /kopgroep
+  title: kopgroep
+- url: /beheertool
+  title: beheertool
+- url: /documenten
+  title: documenten
+#- url: /aanbod
+#  title: aanbod

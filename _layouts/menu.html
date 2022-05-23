@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  {% include meta.html %}
+  <title>{{ site.title }} - {{ page.title }}</title>
+</head>
+<body class="bg-light-blue">
+
+  {% include header.html hide_menu=true %}
+
+  <div class="flex mx-auto w-max-wrapper dir-col md:dir-row my5">
+    <div class="flex-1 px2">
+      <div class="md-zone mb4 text-center">
+        {% for item in site.data.menu %}
+        <a href="{{item.url}}" class="text-nav mr4"><h2>{{item.title}}</h2></a>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
