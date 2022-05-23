@@ -8,6 +8,10 @@ cta-button:
     text: Kom naar de bijeenkomsten
 ---
 {% for doc in site.data.documenten %}
+[{{ doc.title }}](#{{ doc.title | downcase | replace: "*", "" | replace: "(", "" | replace: ")", "" | replace: " ", "-" }})
+{% endfor %}
+
+{% for doc in site.data.documenten %}
 ## {{ doc.title }}
 {{ doc.description }}
 {% endfor %}
