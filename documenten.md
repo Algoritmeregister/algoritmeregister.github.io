@@ -7,11 +7,13 @@ cta-button:
     url: /bijeenkomsten
     text: Kom naar de bijeenkomsten
 ---
-{% for doc in site.data.documenten %}
+{% assign docs = site.data.documenten | sort: "title" %}
+{% for doc in docs %}
 [{{ doc.title }}](#{{ doc.title | downcase | replace: "*", "" | replace: "(", "" | replace: ")", "" | replace: " ", "-" }})
 {% endfor %}
 
-{% for doc in site.data.documenten %}
+{% for doc in docs %}
 ## {{ doc.title }}
 {{ doc.description }}
+[terug omhoog](#)
 {% endfor %}
