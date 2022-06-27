@@ -6,10 +6,10 @@ splash:
     image: true
     link:
         url: /bijeenkomsten
-        text: Kom naar de bijeenkomsten
+        text: Doe mee in de community
 cta-button:
     url: /bijeenkomsten
-    text: Kom naar de bijeenkomsten
+    text: Doe mee in de community
 ---
 ## Over het programma
 
