@@ -10,23 +10,22 @@
 #  type: Kopgroepbijeenkomst
 #  titel: Beginnen met een algoritmeregister
 #  omschrijving: Hoe begin je met het bijhouden van een algoritmeregister en wat is daarvoor nodig (en beschikbaar)?
-- wanneer: maandag 23 mei, 15:45 uur
-  type: open bijeenkomst
-  titel: Bias in algoritmes
-  omschrijving: |
-    Hoe zorgen we ervoor dat we eerlijke algoritmes ontwikkelen en toepassen? Hoe gaan we om met bias? Hoe vertalen we deze kennis naar toepassingen waar mensen echt iets aan hebben en wat betekent dat in de praktijk voor product owners, business analisten en data scientists?
-
-    Het Fairness Handboek biedt een leidraad en een handreiking. Het is aan ons om hier in de praktijk vorm aan te geven. Denk samen mee over hoe we hier de juiste impact mee kunnen maken.
-
-- wanneer: donderdag 9 juni, 15:45 uur
-  type: open bijeenkomst
-  titel: Handreiking Governance
-  omschrijving: |
-    Onder voorbehoud
-
-- wanneer: maandag 27 juni, 15:45 uur
-  type: open bijeenkomst
-  titel: Toekomstverkenning Consortium
-  omschrijving: |
-    Onder voorbehoud
-    
+#- wanneer: maandag 23 mei, 15:45 uur
+#  type: open bijeenkomst
+#  titel: Bias in algoritmes
+#  omschrijving: |
+#    Hoe zorgen we ervoor dat we eerlijke algoritmes ontwikkelen en toepassen? Hoe gaan we om met bias? Hoe vertalen we deze kennis naar toepassingen waar mensen echt iets aan hebben en wat betekent dat in de praktijk voor product owners, business analisten en data scientists?
+#
+#    Het Fairness Handboek biedt een leidraad en een handreiking. Het is aan ons om hier in de praktijk vorm aan te geven. Denk samen mee over hoe we hier de juiste impact mee kunnen maken.
+#
+#- wanneer: donderdag 9 juni, 15:45 uur
+#  type: open bijeenkomst
+#  titel: Handreiking Governance
+#  omschrijving: |
+#    Onder voorbehoud
+#
+#- wanneer: maandag 27 juni, 15:45 uur
+#  type: open bijeenkomst
+#  titel: Toekomstverkenning Consortium
+#  omschrijving: |
+#    Onder voorbehoud
