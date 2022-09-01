@@ -4,6 +4,8 @@
   title: bijeenkomsten
 - url: /kopgroep
   title: kopgroep
+- url: /standaard
+  title: standaard
 - url: /beheertool
   title: beheertool
 - url: /documenten
