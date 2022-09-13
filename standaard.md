@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Standaard voor Algoritmische Transparantie
-description: Wat willen we voor informatie bijhouden over de inzet van algoritmische applicaties? Hieronder een overzicht van velden in de huidige versie 0.2
+description: Wat willen we voor informatie bijhouden over de inzet van algoritmische applicaties? Het consortium "publieke controle op algoritmes" heeft hiervoor een versie 0.2 standaard opgesteld. Deze willen we nu met alle overheden in de praktijk verder doorontwikkelen. In een parallel wetstraject wordt - ook in overleg met overheden - bezien welke informatie verplicht zal worden.
 splash: true
 cta-button:
     url: https://standaard.algoritmeregister.org
