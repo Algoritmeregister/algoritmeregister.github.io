@@ -13,9 +13,7 @@ cta-button:
 ---
 ## Over het programma
 
-Overheden zijn zich meer en meer bewust van de impact van algoritmes op publieke waarden. In het innovatie-programma 'Publieke controle op algoritmes' ontwikkelden de G4, de 12 Provincies, de Politie en Rijkswaterstaat gezamenlijk een beleidsinstrumenten voor verantwoorde en transparante inzet van algoritmes en een metadata standaard voor het registreren van inzet van algoritmes in een algoritmeregister.
-
-In dit vervolgprogramma richten we ons op het samen in de praktijk brengen en doorontwikkelen hiervan:
+Overheden zijn zich meer en meer bewust van de impact van algoritmes op publieke waarden. In het programma "Algoritmeregister" richten we ons als overheden samen op het in de praktijk brengen en doorontwikkelen van manieren en instrumenten voor verantwoorde en transparante inzet van algoritmische toepassingen.
 
 ### We brengen algoritmeregisters in de praktijk
 
