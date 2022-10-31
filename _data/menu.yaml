@@ -2,8 +2,10 @@
   title: home
 - url: /bijeenkomsten
   title: bijeenkomsten
-- url: /kopgroep
-  title: kopgroep
+- url: /werkgroep
+  title: werkgroep
+- url: /definities
+  title: definities
 - url: /standaard
   title: standaard
 - url: /beheertool

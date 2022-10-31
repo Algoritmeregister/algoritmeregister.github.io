@@ -1,23 +1,23 @@
 ---
 layout: default
-title: Standaard voor Algoritmische Transparantie
-description: Wat willen we voor informatie bijhouden over de inzet van algoritmische applicaties? Het consortium "publieke controle op algoritmes" heeft hiervoor een versie 0.2 standaard opgesteld. Deze willen we nu met alle overheden in de praktijk verder doorontwikkelen. In een parallel wetstraject wordt - ook in overleg met overheden - bezien welke informatie verplicht zal worden.
+title: Werkdefinities Algoritmeregister
+description: Wat is een algoritme? Wat bedoelen we met hoog risico? Op deze pagina houden we de werkdefinities bij voor de belangrijkste termen binnen Algoritmeregister.
 splash: true
 cta-button:
-    url: https://standaard.algoritmeregister.org
+    url: /werkgroep
     text: Meer informatie
 ---
 <div id="data"></div>
 <script>
     var _data;
-    var url = "https://standaard.algoritmeregister.org/schemas/registration-v0.2.nl.schema.json";
+    var url = "https://standaard.algoritmeregister.org/data/glossary.json";
     fetch(url).then(response => response.json()).then(data => render(data));
 
     function render(data) {
         var rootDiv = document.createElement("div");
         rootDiv.setAttribute("id", "data");
-        for(var i in data.properties) {
-            var prop = data.properties[i];
+        for(var i in data) {
+            var prop = data[i];
             var p = document.createElement("p");
             var b = document.createElement("b");
             b.appendChild(document.createTextNode(
