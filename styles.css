@@ -25,10 +25,17 @@ img {
     min-width: 280px;
     box-shadow: 0 0 12px #cccccc;
 }
+.card:first-child {
+    border: #4D81E2 2px solid;
+    box-shadow: 0 0 36px #4D81E277;
+}
 .card img {
     width: 280px;
     height: 200px;
     border-radius: 5px 5px 0 0;
+}
+.card:first-child img {
+    border-radius: 4px 4px 0 0;
 }
 .card .card__content {
     padding: 20px;
