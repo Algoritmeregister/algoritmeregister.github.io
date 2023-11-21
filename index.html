@@ -1,4 +1,31 @@
+---
+---
 <!DOCTYPE html>
-<html>
-    <head><meta http-equiv="refresh" content="0; url=https://algoritmes.pleio.nl"></head>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Startpagina Algoritmeregister</title>
+  <link rel="icon" href="https://raw.githubusercontent.com/Algoritmeregister/algoritmeregister.github.io/redesign/img/algoritmeregister-logo-sans-text.svg">
+  <link rel="stylesheet" href="/reset.css">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header>
+    <img src="https://raw.githubusercontent.com/Algoritmeregister/algoritmeregister.github.io/redesign/img/algoritmeregister-logo.svg"><br>
+    <h1 style="font-size: 1.4em; margin-top: 20px">Startpagina Algoritmeregisters</h1>
+  </header>
+  <main class="cards">
+    {% for card in site.data.cards %}
+    <div class="card">
+        <img src="{{ card.image }}">
+        <div class="card__content">
+            <h2>{{ card.title }}</h2>
+            <p>{{ card.description }}</p>
+            <p><a target="_blank" href="{{ card.url }}">{{ card.title }}</a></p>
+        </div>
+    </div>
+    {% endfor %}
+  </main>
+</body>
 </html>
